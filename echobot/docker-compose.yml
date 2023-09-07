@@ -1,0 +1,10 @@
+version: '3'
+services:
+  echobot:
+    build: .
+    container_name: echobot
+    ports:
+     - "8443:8443"
+    volumes:
+     - .:/code
+    restart: unless-stopped

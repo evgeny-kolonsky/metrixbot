@@ -2,7 +2,7 @@ version: '3'
 services:
   mbot:
     build: .
-    container_name: mbot
+    container_name: metrix
     ports:
      - "8443:8443"
     volumes:
